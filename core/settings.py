@@ -35,6 +35,7 @@ CLEAN_ON_START = ADDON.getSetting('cleanonstart') == 'true'
 SCAN_ON_START = ADDON.getSetting('scanonstart') == 'true'
 PER_FILE_REMOVE = int(ADDON.getSetting('removalmethod')) == 1
 SHOW_PROGRESS_DIALOG = ADDON.getSetting('hideprogress') == 'false'
+ISHEADLESS = ADDON.getSetting('isheadless')
 
 
 if ADDON.getSetting('watchvideo') == 'true':
